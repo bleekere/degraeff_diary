@@ -1,0 +1,27 @@
+[entry|+L1 date=16661011>
+[page|+L2>
+[l|L2>[s|L1>[date|L1 yyyymmdd=16661011 cal='greg'>11 dito<date] gekoft van [pers|L1 id='www.url.nl'>Harman Gla<pers] [obj|L1>[item|L1 type='dorp'>[quant|L1 n=5>5<quant] [mat|L1 type='marble' col='white'>witte marme<l][l|L2>re<mat] druppels<item]<-obj] ieder lang omtrent [+obj|L1>[size|L1 type='length' unit='ft'>3 [add|L2 type='above'>voeten<add]<size]<-obj] en breet [+obj|L1>[size|L1 type='width' unit='tmb'>10 duym<size]<obj]<l] [l|L2>en [item|L1 type='dorp'>[add|L2>een<add] druppel<item] in myn poort [loc|L1 address='herengracht573' room='voorhuis'>in 't voorhuys<loc] [size|L1 type='ft'>lang 4 1/2 voeten<size]<l] [l|L2>en [size|L1 type='tmb'>breet 14 duym<size]. voor welcke 6 voorschreve druppels<l] 
+<page]
+<entry]
+
+Layer 1 (id=L1) about the content
+
+- entry + date
+- s
+- date (2x)
+- pers + id
+- obj
+	- item +type
+	- quant
+	- mat +col,type
+	- size +type,unit
+- loc +address,room
+
+Layer 2 (id=L2) about the materiality of the document
+- page
+- l
+- add +type
+
+# Notes:
+- it would be great if we define which elements are in which layers at the beginning of the transcription, so we don't have to give each markup element a layer ID in the transcription 
+
